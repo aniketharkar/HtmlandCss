@@ -1,0 +1,38 @@
+div{
+    height:100px;
+    width:100px;
+    display:inline-block;
+    background:yellow;
+    text-align:center;
+}
+#one{
+    position:default;
+}
+#two{
+    position:relative;
+    background:red;
+    top:10px;
+    left:10px;
+    z-index:-1;
+}
+#three{
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+
+#four{
+    position:fixed;
+    top:10px;
+    left:-10px;
+}
+#five{
+    position:sticky;
+    top:10px;
+    margin-left:50%;
+    background-image:url(planet.jpg);
+    background-size:cover;
+    background-repeat:none;
+
+}
+

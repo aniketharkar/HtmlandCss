@@ -1,0 +1,18 @@
+#outer{
+    height:100px;
+    width:100px;
+    background:red;
+
+}
+
+#inner{
+    width:50%;
+    height:50%;
+  
+    background:yellow;
+   
+    font-size:2rem;
+    width:4rem;
+
+
+}

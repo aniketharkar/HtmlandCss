@@ -1,0 +1,164 @@
+*{
+    box-sizing:border-box;
+    margin:0%;
+    font-family:Arial;
+    color:white;
+}
+body{
+    display:flex;
+    flex-wrap:wrap;
+    align-content:flex-start;
+}
+
+.navbar{
+    background-color:#0F1111;
+    height:50px;
+    width:100%;
+  
+    display:flex;
+    align-items:center;
+    column-gap:5px;
+
+    
+   
+
+}
+.border{
+    border:1px solid transparent;
+}
+.border:hover{
+    border:1px solid white;
+}
+.amazon{
+    height:40px;
+    width:100px;
+}
+
+.logo{
+    height:40px;
+    width:100px;
+    background-image:url("amazonlogo.jpg");
+    background-size:cover;
+    
+}
+
+.two{
+    height:40px;
+    width:60px;
+    
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+.para{
+    height:30px;
+    width:45px;
+    
+    font-size:0.6rem;
+}
+
+.three{
+    height:40px;
+    width:600px;
+    
+    border-radius:5px;
+    display:flex;
+    
+
+}
+.select{
+    height:39px;
+    width:40px;
+    color:gray;
+    font-size:0.6rem;
+    text-align:center;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;
+    background:#E6E6E6;
+}
+.input{
+    height:39px;
+    width:520px;
+    
+    
+}
+.search{
+    height:40px;
+    width:40px;
+    
+    background:rgba(243, 191, 21, 0.974);
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+
+}
+
+
+.forth{
+    height:40px;
+    width:450px;
+    border:1px solid white;
+    
+}
+
+.second-navbar{
+    height:30px;
+    width:100%;
+    background:#0F1111;
+    border: 1px solid white;
+}
+
+.frame{
+    height:200px;
+    width:100%;
+    background-image:url("https://m.media-amazon.com/images/I/61lwJy4B8PL._SX3000_.jpg");
+    background-size:cover;
+    display:flex;
+}
+
+.product{
+    height:800px;
+    width:100%;
+    display:flex;
+    background:rgb(255, 210, 218);
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-content:flex-start;
+    flex-wrap:wrap;
+    gap:10px 10px;
+}
+
+.box1{
+    height:400px;
+    width:290px;
+    background:white;
+    
+    display:flex;
+    flex-direction:column;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:5px;
+    padding-right:5px;
+    row-gap:5px;
+
+}
+
+.image{
+    height:300px;
+    width:280px;
+    background-image:url("https://i5.walmartimages.com/asr/87d5b9aa-d284-449f-b194-81d7ecf5c0e4.7915c32eeeab2a9916a3d1db8ccdd0ee.jpeg?odnWidth=1000&odnHeight=1000&odnBg=ffffff");
+    background-size:contain;
+}
+
+.footer{
+    height:200px;
+    width:100%;
+    background:#0F1111;
+    border:1px solid white;
+}
+
+

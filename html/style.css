@@ -1,0 +1,33 @@
+
+
+#searchhead{
+    background:rgb(201,23,23);
+    /* border-width:5px;
+    border-color:rgb(240,224,68);
+    border-style: solid; */
+    height:50px
+   
+    
+
+
+}
+
+#searchhead a{
+    color:rgb(240,224,68);
+    text-decoration:none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height:50px;
+    width:50px;
+    text-align:center;
+
+   
+
+}
+
+#image{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    margin:5px;
+    background:rgb(201,23,23);
+}

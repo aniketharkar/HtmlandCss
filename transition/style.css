@@ -1,0 +1,22 @@
+.box{
+    height:100px;
+    width:100px;
+    text-align:center;
+    font-size:30px;
+    background-color:rgba(11, 11, 135, 0.973);
+    display:inline-block;
+    border:5px solid black;
+    transition-property:all;
+    transition-duration:5s;
+    transition-delay:1s;
+    transition-timing-function:linear;
+}
+
+.box:hover{
+    background:red;
+    /* transform:translate(100px); */
+    transform: rotateX(180deg);
+    
+}
+
+

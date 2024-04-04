@@ -1,0 +1,38 @@
+#outer{
+    background-color:yellow;
+    height:200px;
+    width:400px;
+     
+    display:flex;
+    flex-direction:row;
+   flex-wrap:wrap;
+   column-gap:300px;
+}
+
+div{
+    height:50px;
+    width:50px;
+    border:2px solid black;
+    background:brown;
+    
+}
+#one{
+    background:red;
+}
+
+#two{
+    background:pink;
+}
+
+#three{
+    background:orange;
+}
+#four{
+    background:blue;
+}
+
+@media(max-width:600px){
+    #outer{
+        background:purple;
+    }
+}
